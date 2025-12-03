@@ -3,7 +3,7 @@ import os
 # define cachepaths, you can change these if your cache path is different
 cachePath = r"E:\CACHE"
 
-# for if you play beta halos (you can comment this out if you don't play it)... probablyu
+# for if you play beta halos (you can comment this out if you don't play it)
 betaHaloCache = r"E:\CACHEGSRV"
 
 # remove cache files
@@ -17,3 +17,4 @@ for fileNameHalo in os.listdir(betaHaloCache):
    fileToRemoveHalo = os.path.join(betaHaloCache, fileNameHalo)
    if os.path.isfile(fileToRemoveHalo):
       os.remove(fileToRemoveHalo)
+
