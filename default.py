@@ -5,8 +5,7 @@ cachePathE = r"E:\CACHE"
 # cachePathX = r"X:"
 # cachePathY = r"Y:"
 # cachePathZ = r"Z:"
-# There's no XYZ parititions on my version of Xemu, but I'll test them on systems with XYZ parts in a future date.
-
+# There's no XYZ parititions on my version of Xemu, so these are disabled.
 
 # for if you play beta halos (you can comment this out if this folder doesn't appear)
 betaHaloCache = r"E:\CACHEGSRV"
