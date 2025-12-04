@@ -40,3 +40,5 @@ for fileNameHalo in os.listdir(betaHaloCache):
    fileToRemoveHalo = os.path.join(betaHaloCache, fileNameHalo)
    if os.path.isfile(fileToRemoveHalo):
       os.remove(fileToRemoveHalo)
+
+print("Cache cleared.")
