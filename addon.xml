@@ -6,6 +6,7 @@
 <extension point="xbmc.addon.metadata">
 <platform>all</platform>
 <summary lang="en">Xbox Cache Clearer</summary>
-<description lang="en">A python script for clearing your regular cache and your CACHEGSRV if you play the pre-release Halos.</description>
+<description lang="en">A python script for clearing your regular CACHE and your CACHEGSRV if you play the pre-release Halos.</description>
 </extension>
+
 </addon>
