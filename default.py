@@ -13,32 +13,32 @@ betaHaloCache = r"E:\CACHEGSRV"
 
 # remove E cache files
 for eCache in os.listdir(cachePathE):
-   clearECache = os.path.join(cachePathE, eCache)
-   if os.path.isfile(clearECache):
-      os.remove(clearECache)
+    clearECache = os.path.join(cachePathE, eCache)
+    if os.path.isfile(clearECache):
+        os.remove(clearECache)
 
 # remove X cache files
 for filesInX in os.listdir(cachePathX):
-   clearXCache = os.path.join(cachePathX, filesInX)
-   if os.path.isfile(clearXCache):
-      os.remove(clearXCache)
+    clearXCache = os.path.join(cachePathX, filesInX)
+    if os.path.isfile(clearXCache):
+        os.remove(clearXCache)
 
 # remove Y cache files
 for filesInY in os.listdir(cachePathY):
-   clearYCache = os.path.join(cachePathY, filesInY)
-   if os.path.isfile(clearYCache):
-      os.remove(clearYCache)
+    clearYCache = os.path.join(cachePathY, filesInY)
+    if os.path.isfile(clearYCache):
+        os.remove(clearYCache)
 
 # remove Z cache files
 for filesInZ in os.listdir(cachePathZ):
-   clearZCache = os.path.join(cachePathZ, filesInZ)
-   if os.path.isfile(clearZCache):
-      os.remove(clearZCache)
+    clearZCache = os.path.join(cachePathZ, filesInZ)
+    if os.path.isfile(clearZCache):
+        os.remove(clearZCache)
 
 # remove halo cache files (you can comment this out if the folder doesn't appear)
 for fileNameHalo in os.listdir(betaHaloCache):
-   fileToRemoveHalo = os.path.join(betaHaloCache, fileNameHalo)
-   if os.path.isfile(fileToRemoveHalo):
-      os.remove(fileToRemoveHalo)
+    fileToRemoveHalo = os.path.join(betaHaloCache, fileNameHalo)
+    if os.path.isfile(fileToRemoveHalo):
+        os.remove(fileToRemoveHalo)
 
 print("Cache cleared.")
